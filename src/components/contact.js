@@ -10,7 +10,7 @@ class Contact extends Component {
             <div className="contact-body">
 
                 <h1 style={{textAlign: 'center'}}>Contact Me</h1>
-                <Form style={{width: '600px', margin: '0 auto'}} action="POST" data-netlify="true">
+                <Form style={{width: '600px', margin: '0 auto'}} method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
                     <FormGroup>
                         <Label for="exampleEmail">Name: </Label>
