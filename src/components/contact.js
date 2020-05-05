@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import  {Form, FormGroup, Label, Input, Button} from 'reactstrap';
+import  {Button} from 'reactstrap';
 
 class Contact extends Component {
     
@@ -7,37 +7,11 @@ class Contact extends Component {
         return(
 
 
-            <div className="contact-body">
+            <div className="contact-body" style={{textAlign: 'center'}}>
 
-                <h1 style={{textAlign: 'center'}}>Contact Me</h1>
-                <Form style={{width: '600px', margin: '0 auto'}} method="post" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
-
-                    <FormGroup>
-                        <Label for="exampleEmail">Name: </Label>
-                        <Input 
-                        type="text" 
-                        name="name" 
-                        placeholder="Your Name"
-                        />
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="exampleSubject">Email: </Label>
-                        <Input 
-                        type="email" 
-                        name="email" 
-                        placeholder="Email"
-                        />
-                    </FormGroup>
-                    <FormGroup>
-                        <Label for="exampleBody">Body: </Label>
-                        <Input 
-                        type='textarea' 
-                        name="message"
-                        placeholder="Message Content" 
-                        />
-                    </FormGroup>
-                    <Button>Submit</Button>
-                </Form> 
+                <h1 style={{textAlign: 'center'}}>Let's Talk.</h1>
+                <h5 style={{textAlign: 'center'}}>If you have any questions about my projects or any other random questions, why not just shoot me an email.</h5>
+                <a href="mailto:mason.schafer1@gmail.com"><Button color="primary" style={{width: '155px', height: '53px'}}>Contact Me!</Button></a>
 
             </div>
         );
