@@ -1,18 +1,18 @@
 .header-color {
-    background: #FEAC5E;
+    background: #7F7FD5;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-    background: #FEAC5E;
+    background: #7F7FD5;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     position: fixed;
@@ -68,7 +68,8 @@
 
 .projects-grid {
     display: flex;
-    margin: auto;
+    margin: 5px;
+    padding: 150px;
 }
 
 .contact-body {
@@ -91,7 +92,7 @@
 }
 
 .contact-grid h2 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .contact-grid p {
@@ -108,4 +109,11 @@
 .contact-list i {
     font-size: 66px;
     padding-right: 5rem;
+    text-align: center;
+}
+
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
 }

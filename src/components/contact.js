@@ -1,62 +1,50 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import  {Form, FormGroup, Label, Input, Button} from 'reactstrap';
 
 class Contact extends Component {
+    
     render(){
         return(
+
+
             <div className="contact-body">
-                <Grid className="contact-grid">
-                    <Cell col={6}>
 
-                        <h2>Mason Schafer</h2>
-                        <img 
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-                            alt="avatar"
-                            style={{height: '250px'}}
+                <h1 style={{textAlign: 'center'}}>Contact Me</h1>
+                <Form style={{width: '600px', margin: '0 auto'}} action="POST" data-netlify="true">
+
+                    <FormGroup>
+                        <Label for="exampleEmail">Name: </Label>
+                        <Input 
+                        type="text" 
+                        name="name" 
+                        placeholder="Your Name"
                         />
-                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </FormGroup>
+                    <FormGroup>
+                        <Label for="exampleSubject">Email: </Label>
+                        <Input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Email"
+                        />
+                    </FormGroup>
+                    <FormGroup>
+                        <Label for="exampleBody">Body: </Label>
+                        <Input 
+                        type='textarea' 
+                        name="message"
+                        placeholder="Message Content" 
+                        />
+                    </FormGroup>
+                    <Button>Submit</Button>
+                </Form> 
 
-                    </Cell>
-                    <Cell col={6}>
-                        
-                        <h2>Contact Me</h2>
-                        <hr />
-
-                        <div className="contact-list">
-
-                            <List>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-phone-square" aria-hidden="true"/>
-                                        (317)853-0416
-                                    </ListItemContent>
-                                </ListItem>
-
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-fax" aria-hidden="true"/>
-                                        (317)853-0416
-                                    </ListItemContent>
-                                </ListItem>
-
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-envelope-square" aria-hidden="true"/>
-                                        mason.schafer1@gmail.com
-                                    </ListItemContent>
-                                </ListItem>
-
-                            </List>
-
-                        </div>
-
-                        
-
-                    </Cell>
-                </Grid>
             </div>
         );
     }
+    // 6B073CBF58B96BEC462E96EF2FB28CEB3C18
 }
+
+
 
 export default Contact;

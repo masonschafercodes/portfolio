@@ -15,22 +15,22 @@ class LandingPage extends Component {
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>
-                            <p>CSS | Bootstrap | Javascript | React | React Native | NodeJS | Express | MongoDB</p>
+                            <p>CSS | Bootstrap | Javascript | React | React Native | Flask | D3JS | Python</p>
 
                             <div className="social-links">
 
                                 {/* LinkedIn */}
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="http://www.linkedin.com/in/masonschafer" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
                                 </a>
 
                                 {/* Google */}
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://github.com/masonschafercodes" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
 
                                 {/* FreecodeCamp */}
-                                <a href="http://www.google.com" rel="noopener noreferrer" target="_blank">
+                                <a href="https://www.freecodecamp.org/masonschafercodes" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-free-code-camp" aria-hidden="true" />
                                 </a>
                             </div>
