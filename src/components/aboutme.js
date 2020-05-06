@@ -22,9 +22,9 @@ class AboutMe extends Component {
                     <Cell col={4}>
                     <div  style={{textAlign: 'center'}}>
                             <img 
-                            src = "https://i.ibb.co/Xz8CHS6/logo.png"
+                            src = "https://i.ibb.co/sQSjNTP/icon.png"
                             alt="avatar"
-                            style={{height: '250px', textAlign: 'center'}}
+                            style={{height: '250px', textAlign: 'center', paddingLeft: '15px'}}
                             className="about-me-left"
                             />
                             <a href="https://www.github.com/masonschafercodes"><i className="fa fa-github-square fa-3x" style={{marginTop: "10px", padding: "10px", color: "#0099ff"}}></i></a>
