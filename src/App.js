@@ -13,7 +13,7 @@ function App() {
                 <Link to="/"><span className="header-color-link">Home</span></Link>
                 <Link to="/resume"><span className="header-color-link">Resume</span></Link>
                 <Link to="/projects"><span className="header-color-link">Projects</span></Link>
-                <Link to="/contact"><span className="header-color-link">Contact Me</span></Link>
+                <Link to="/contact"><span className="header-color-link">Contact</span></Link>
                 <Link to="/about"><span className="header-color-link">About</span></Link>
             </Navigation>
         </Header>
@@ -22,7 +22,7 @@ function App() {
                 <Link to="/"><span className="header-color-link-1">Home</span></Link>
                 <Link to="/resume"><span className="header-color-link-1">Resume</span></Link>
                 <Link to="/projects"><span className="header-color-link-1">Projects</span></Link>
-                <Link to="/contact"><span className="header-color-link-1">Contact Me</span></Link>
+                <Link to="/contact"><span className="header-color-link-1">Contact</span></Link>
                 <Link to="/about"><span className="header-color-link-1">About</span></Link>
             </Navigation>
         </Drawer>
