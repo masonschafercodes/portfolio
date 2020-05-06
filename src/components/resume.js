@@ -4,6 +4,7 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import { Button } from 'reactstrap';
+import TypeWriter from 'react-typewriter';
 
 class Resume extends Component {
     render(){
@@ -21,10 +22,10 @@ class Resume extends Component {
 
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Mason Schafer</h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <TypeWriter typing={.5}><h4 style={{color: 'lightgrey'}}>Developer</h4></TypeWriter>
+                        <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
                         <h5>Address</h5>
                         <p>4838 E 64th St, 46220</p>
                         <h5>Phone</h5>
@@ -33,7 +34,7 @@ class Resume extends Component {
                         <a href="mailto:mason.schafer1@gmail.com" style={{textDecorationColor: "white", color: "white"}}><p>mason.schafer1@gmail.com</p></a>
                         <h5>Website</h5>
                         <a href="/" style={{textDecorationColor: "white", color: "white"}}><p>masonschafer.tech</p></a>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
                         <a href="https://cdn-22.anonfile.com/V4O389waoa/bbf7766e-1588802234/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontFamily: 'economica', fontSize: '20px', backgroundColor: 'white', color:  'black'}}>Download Resume</Button></a>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
@@ -51,7 +52,7 @@ class Resume extends Component {
                             schoolName={'North Central High School'}
                             schoolDescription={'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'}
                         />
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <hr style={{borderTop: '3px solid #fff'}}/>
 
                         <h2 style={{color: "#fff"}}>Experience</h2>
                         <Experience 
@@ -66,7 +67,7 @@ class Resume extends Component {
                             jobName="Restraunt"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         />
-                        <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <hr style={{borderTop: '3px solid #efff'}}/>
                         <h2 style={{color: "#fff"}}>Skills</h2>
                         <Skills 
                             skill="Javascript"

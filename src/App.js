@@ -26,7 +26,7 @@ function App() {
                 <Link to="/about"><span className="header-color-link-1">About</span></Link>
             </Navigation>
         </Drawer>
-        <Content style={{background: '#181818', color: '#fff'}}>
+        <Content style={{background: '#0a3d62', color: '#fff'}}>
             <div className="page-content" />
             <Main/>
         </Content>

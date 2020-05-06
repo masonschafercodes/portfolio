@@ -1,13 +1,13 @@
 
 .header-color *{
-    background:#181818;
+    background:#0a3d62;
 }
 
 
 
 .landing-grid {
-    background: #181818;
-    color: black;
+    background: hsl(205, 81%, 21%);
+    color: white;
     
     text-align: center;
     position: fixed;
@@ -24,21 +24,21 @@
 .banner-text h1 {
     font-size: 65px;
     font-family: 'Press Start 2P', cursive;
-    color: #0099ff;
+    color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 
 .banner-text hr {
-    border-top: 3px solid #0052cc;
+    border-top: 3px solid #fff;
     width: 50%;
     margin: auto;
     padding-top: 10px;
 }
 
 .banner-text p {
-    color: #0052cc;
+    color: #fff;
     font-family: 'Press Start 2P', cursive;
     font-size: 13px;
     padding: 1em;
@@ -52,13 +52,13 @@
 }
 
 .social-links i {
-    color: #0099ff;
+    color: #fff;
     font-size: 5em;
     padding: 8px;
 }
 
 .social-links i:hover {
-    color: #0052cc;
+    color: #ddd;
 }
 
 .header-color-link{
@@ -66,11 +66,11 @@
     font-weight: 600;
     text-decoration: none !important;
     font-size: 16px;
-    opacity: .5;
+    opacity: .7;
 }
 
 .header-color-link-1{
-    color: black;
+    color: #0a3d62;
     font-weight: 600;
     text-decoration: none !important;
     font-size: 16px;
@@ -122,7 +122,7 @@
 }
 
 .resume-right-col {
-    color: black;
+    color: #0a3d62;
     padding: 2em;
 }
 
@@ -137,13 +137,13 @@
     font-weight: 700;
     font-style: normal;
     font-size: 75px;
-    color: #0099ff;
+    color: #fff;
 }
 
 .contact-body h5 {
     word-wrap: normal;
     padding: 3rem;
-    color: #0052cc;
+    color: #fff;
 }
 
 .contact-body Button {
@@ -151,7 +151,8 @@
     margin: auto;
     font-family: economica, sans-serif;
     font-size: 25px;
-    background: #0099ff;
+    color: #0a3d62;
+    background: #fff;
 }
 
 .contact-body Button:hover{
@@ -162,7 +163,7 @@
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #0099ff;
+    border-top: 1px solid #fff;
     margin: auto;
     padding-bottom: 25px;
     width: 50%;
@@ -173,7 +174,7 @@
     padding-top: 30px;
     justify-content: space-between;
     text-align: center;
-    color: #0052cc;
+    color: #fff;
 }
 
 .contact-info-section h4{
