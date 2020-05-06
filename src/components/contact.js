@@ -21,7 +21,8 @@ class Contact extends Component {
 
                 <BounceInDiv><h1 style={{textAlign: 'center'}}>Let's Talk.</h1></BounceInDiv>
                 <h5 style={{textAlign: 'center'}}>If you have any questions about my projects or any other random questions, why not just shoot me an email.</h5>
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="contact" value="contact" />
                     <p>
                         <label>Name <input type="text" name="name" /></label>
                     </p>
