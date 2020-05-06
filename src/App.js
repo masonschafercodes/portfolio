@@ -8,20 +8,22 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Mason Schafer</Link>} scroll>
-            <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact Me</Link>
-                <Link to="/about">About Me</Link>
+        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'black'}} to="/"></Link>} scroll>
+            <Navigation className="link-nav">
+                <Link to="/"><span className="header-color-link">Home</span></Link>
+                <Link to="/resume"><span className="header-color-link">Resume</span></Link>
+                <Link to="/projects"><span className="header-color-link">Projects</span></Link>
+                <Link to="/contact"><span className="header-color-link">Contact Me</span></Link>
+                <Link to="/about"><span className="header-color-link">About</span></Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Mason Schafer</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/"></Link>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact Me</Link>
-                <Link to="/about">About Me</Link>
+                <Link to="/"><span className="header-color-link-1">Home</span></Link>
+                <Link to="/resume"><span className="header-color-link-1">Resume</span></Link>
+                <Link to="/projects"><span className="header-color-link-1">Projects</span></Link>
+                <Link to="/contact"><span className="header-color-link-1">Contact Me</span></Link>
+                <Link to="/about"><span className="header-color-link-1">About</span></Link>
             </Navigation>
         </Drawer>
         <Content>

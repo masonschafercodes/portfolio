@@ -1,19 +1,13 @@
-.header-color {
-    background: #232526;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.header-color *{
+    background:#181818;
 }
 
+
 .landing-grid {
-    background: #232526;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #181818;
+    color: black;
+    
     text-align: center;
     position: fixed;
     top: 0;
@@ -22,50 +16,76 @@
     height: 100%;
 }
 
-.avatar-img {
-    height: 250px;
-    padding-top: 5em;
-}
-
 .banner-text {
-    background-color: black;
-    opacity: .8;
-    width: 75%;
-    margin: auto;
-    border-radius: 10px;
+    padding-top: 20rem;
 }
 
 .banner-text h1 {
-    font-size: 70px;
-    font-family: economica, sans-serif;
-    font-weight: bold;
-    color: white;
-    padding-top: .5em;
+    font-size: 65px;
+    font-family: 'Press Start 2P', cursive;
+    color: #0099ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .banner-text hr {
-    border-top: 5px dotted white;
+    border-top: 3px solid #0052cc;
     width: 50%;
     margin: auto;
+    padding-top: 10px;
 }
 
 .banner-text p {
-    color: white;
-    font-size: 20px;
+    color: #0052cc;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
     padding: 1em;
 }
 
 .social-links {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 30%;
     margin: auto;
 }
 
 .social-links i {
-    color: white;
+    color: #0099ff;
     font-size: 5em;
     padding: 8px;
+}
+
+.social-links i:hover {
+    color: #0099ff;
+}
+
+.header-color-link{
+    color: white;
+    font-weight: 600;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+.header-color-link-1{
+    color: black;
+    font-weight: 600;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+
+.header-color-link:hover{
+    color: #0099ff;
+    text-decoration: none !important;
+    cursor: pointer;
+
+}
+
+.header-color-link-1:hover{
+    color: #0099ff;
+    text-decoration: none !important;
+    cursor: pointer;
+
 }
 
 .projects-grid {
@@ -75,8 +95,7 @@
 }
 
 .resume-right-col {
-    background: #27221F;
-    color: white;
+    color: black;
     padding: 2em;
 }
 
@@ -91,11 +110,13 @@
     font-weight: 700;
     font-style: normal;
     font-size: 75px;
+    color: #0099ff;
 }
 
 .contact-body h5 {
     word-wrap: normal;
     padding: 3rem;
+    color: #0052cc;
 }
 
 .contact-body Button {
@@ -103,14 +124,44 @@
     margin: auto;
     font-family: economica, sans-serif;
     font-size: 25px;
+    background: #0099ff;
+}
+
+.contact-body Button:hover{
+    background-color: #0052cc;
 }
 
 .contact-body hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #e22947;
+    border-top: 1px solid #0099ff;
     margin: auto;
     padding-bottom: 25px;
     width: 50%;
+}
+
+.contact-info-section{
+    display: flexbox;
+    padding-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+    color: #0052cc;
+}
+
+.contact-info-section h4{
+    font-weight: 200;
+}
+
+.contact-info-section a {
+    color: #0052cc;
+    text-decoration: none !important;
+}
+
+.contact-info-section a:hover {
+    color: #0099ff;
+}
+
+.contact-info-middle{
+    padding: 10px;
 }

@@ -24,6 +24,12 @@ class Contact extends Component {
                 <h5 style={{textAlign: 'center'}}>If you have any questions about my projects or any other random questions, why not just shoot me an email.</h5>
                 <hr />
                 <BouncyDiv><a href="mailto:mason.schafer1@gmail.com" ><Button color="primary" style={{fontWeight: '700'}}>Contact Me!</Button></a></BouncyDiv>
+                <div className="contact-info-section">
+                    <h4><strong>Email:</strong> mason.schafer1@gmail.com</h4>
+                    <h4 className="contact-info-middle"><strong>Phone:</strong> (317)853-0416</h4>
+                    <h4><strong>GitHub:</strong> <a href="https://www.github.com/masonschafercodes">/masonschafercodes</a></h4>
+                </div>
+                
             </div>
         );
     }
