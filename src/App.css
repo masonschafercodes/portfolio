@@ -4,6 +4,7 @@
 }
 
 
+
 .landing-grid {
     background: #181818;
     color: black;
@@ -27,6 +28,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 
 .banner-text hr {
     border-top: 3px solid #0052cc;
@@ -92,6 +94,29 @@
     margin: 5px;
     padding: 150px;
     display: flex;
+}
+
+@media only screen and (max-width:  768px){
+    .projects-grid {
+        display: inline;
+        padding-top: 10px;
+    }
+    .banner-text h1{
+        font-size: 50px;
+    }
+
+    .social-links i{
+        display: none;
+    }
+
+    .about-me-right {
+        text-align: center;
+        width: 90%;
+    }
+
+    .about-me-right p {
+        margin-left: 20px;
+    }
 }
 
 .resume-right-col {
