@@ -1,18 +1,18 @@
 .header-color {
-    background: #7F7FD5;
+    background: #11998e;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #38ef7d, #11998e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-    background: #7F7FD5;
+    background: #11998e;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    background: linear-gradient(to right, #38ef7d, #11998e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     position: fixed;
@@ -101,5 +101,6 @@
 .contact-body Button {
     text-align: center;
     margin: auto;
-    font-size: 1.2rem;
+    font-family: economica, sans-serif;
+    font-size: 25px;
 }
