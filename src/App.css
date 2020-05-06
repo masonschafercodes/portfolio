@@ -165,3 +165,20 @@
 .contact-info-middle{
     padding: 10px;
 }
+
+.about-me-left{
+    display: block;
+    margin: auto;
+    margin-top: 50%;
+}
+
+.about-me-right h1{
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.about-me-right p {
+    width: 85%;
+    padding-top: 20px;
+}
