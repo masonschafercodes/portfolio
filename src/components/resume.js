@@ -35,7 +35,7 @@ class Resume extends Component {
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
-                        <h2>Education</h2>
+                        <h2 style={{color: "#fff"}}>Education</h2>
                         <Education 
                             startYear={'Febuary, 2020'}
                             endYear={ 'August, 2020'}
@@ -51,7 +51,7 @@ class Resume extends Component {
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
 
-                        <h2>Experience</h2>
+                        <h2 style={{color: "#fff"}}>Experience</h2>
                         <Experience 
                             startYear={2015}
                             endYear={2016}
@@ -65,7 +65,7 @@ class Resume extends Component {
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         />
                         <hr style={{borderTop: '3px solid #e22947'}}/>
-                        <h2>Skills</h2>
+                        <h2 style={{color: "#fff"}}>Skills</h2>
                         <Skills 
                             skill="Javascript"
                             progress={75}
