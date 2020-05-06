@@ -47,7 +47,7 @@
 .social-links {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 20%;
     margin: auto;
 }
 
@@ -66,6 +66,7 @@
     font-weight: 600;
     text-decoration: none !important;
     font-size: 16px;
+    opacity: .5;
 }
 
 .header-color-link-1{
@@ -77,9 +78,10 @@
 
 
 .header-color-link:hover{
-    color: #0099ff;
+    color: white;
     text-decoration: none !important;
     cursor: pointer;
+    opacity: 1;
 
 }
 

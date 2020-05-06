@@ -24,11 +24,6 @@ class LandingPage extends Component {
                                 <a href="https://github.com/masonschafercodes" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
-
-                                {/* FreecodeCamp */}
-                                <a href="https://www.freecodecamp.org/masonschafercodes" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-free-code-camp" aria-hidden="true" />
-                                </a>
                             </div>
                         </div>                   
                     </Cell>

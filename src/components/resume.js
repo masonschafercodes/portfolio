@@ -29,9 +29,9 @@ class Resume extends Component {
                         <h5>Phone</h5>
                         <p>(317)853-0416</p>
                         <h5>Email</h5>
-                        <p>mason.schafer1@gmail.com</p>
+                        <a href="mailto:mason.schafer1@gmail.com" style={{textDecorationColor: "white", color: "white"}}><p>mason.schafer1@gmail.com</p></a>
                         <h5>Website</h5>
-                        <p>masonschafer.tech</p>
+                        <a href="/" style={{textDecorationColor: "white", color: "white"}}><p>masonschafer.tech</p></a>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
