@@ -3,6 +3,7 @@ import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import { Button } from 'reactstrap';
 
 class Resume extends Component {
     render(){
@@ -33,6 +34,7 @@ class Resume extends Component {
                         <h5>Website</h5>
                         <a href="/" style={{textDecorationColor: "white", color: "white"}}><p>masonschafer.tech</p></a>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <a href="https://cdn-22.anonfile.com/V4O389waoa/bbf7766e-1588802234/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontFamily: 'economica', fontSize: '20px', backgroundColor: 'white', color:  'black'}}>Download Resume</Button></a>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
                         <h2 style={{color: "#fff"}}>Education</h2>
