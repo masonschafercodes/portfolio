@@ -5,15 +5,16 @@ class Projects extends Component {
     constructor(props){
         super(props);
         this.state = { activeTab: 0};
+
     }
 
     toggleCategories() {
         if(this.state.activeTab === 0){
             return(
-                <div className="projects-grid">
+                <div className="font-main projects-grid">
                     {/* Project 1*/}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.designtrends.com%2Fwp-content%2Fuploads%2F2015%2F11%2F30144757%2FPlain-Light-Yellow-Website-Background.jpg&f=1&nofb=1) center / cover'}}>Python Project #1</CardTitle>
+                        <CardTitle style={{color: 'black', height: '176px', background: 'url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.designtrends.com%2Fwp-content%2Fuploads%2F2015%2F11%2F30144757%2FPlain-Light-Yellow-Website-Background.jpg&f=1&nofb=1) center / cover'}}></CardTitle>
                         <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </CardText>
@@ -21,7 +22,7 @@ class Projects extends Component {
                             <Button colored>GitHub</Button>
                         </CardActions>
                         <CardMenu style={{colr: '#fff'}}>
-                            <IconButton name="share" />
+                            <IconButton name="share"/>
                         </CardMenu>
                     </Card>
 
@@ -75,10 +76,10 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 2){
             return(
-                <div className="projects-grid">
+                <div className="font-main projects-grid">
                     {/* Project 1*/}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: 'white', height: '176px', fontWeight: 'bold', background: 'url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.coloredfilms.com%2Fimages%2Fproducts%2Fdetail%2F20LightPurplesquareredoBIG.jpg&f=1&nofb=1) center / cover'}}>Flask Project #1</CardTitle>
+                        <CardTitle style={{color: 'white', height: '176px', fontWeight: 'bold', background: 'url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcbsnews1.cbsistatic.com%2Fhub%2Fi%2F2014%2F01%2F06%2Fdd59caea-2766-4a92-ac71-aa345ec0e77f%2F001_king%2520kamehameha_2100.jpg&f=1&nofb=1) center / cover'}}>Surfs Up!</CardTitle>
                         <CardText>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </CardText>
@@ -87,6 +88,7 @@ class Projects extends Component {
                         </CardActions>
                         <CardMenu style={{colr: '#fff'}}>
                             <IconButton name="share" />
+
                         </CardMenu>
                     </Card>
 
@@ -126,9 +128,9 @@ class Projects extends Component {
 
     render(){
         return(
-            <div className="category-tabs">
+            <div className="font-main category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
-                    <Tab style={{color: "white"}}>Python</Tab>
+                    <Tab style={{color: "white"}}>Data Analysis</Tab>
                     <Tab style={{color: "white"}}>Web Dev</Tab>
                     <Tab style={{color: "white"}}>Flask</Tab>
                 </Tabs>

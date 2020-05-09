@@ -9,7 +9,7 @@ class LandingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <div className="banner-text">
-                            <h1>Mason Schafer</h1>
+                            <h1 className="font-main">Mason Schafer</h1>
                             <hr/>
                             <p><TypeWriter typing={.5}>CSS | Bootstrap | Javascript | React | React Native | Flask | D3JS | Python</TypeWriter></p>
 

@@ -21,24 +21,24 @@ class Resume extends Component {
 
 
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Mason Schafer</h2>
-                        <TypeWriter typing={.5}><h4 style={{color: 'lightgrey'}}>Developer</h4></TypeWriter>
+                        <h2 style={{paddingTop: '2em'}} className="font-main">Mason Schafer</h2>
+                        <TypeWriter typing={.5}><h4 style={{color: 'lightgrey'}} className="font-main">Developer</h4></TypeWriter>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className="font-main">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
-                        <h5>Address</h5>
-                        <p>4838 E 64th St, 46220</p>
-                        <h5>Phone</h5>
-                        <p>(317)853-0416</p>
-                        <h5>Email</h5>
-                        <a href="mailto:mason.schafer1@gmail.com" style={{textDecorationColor: "white", color: "white"}}><p>mason.schafer1@gmail.com</p></a>
-                        <h5>Website</h5>
-                        <a href="/" style={{textDecorationColor: "white", color: "white"}}><p>masonschafer.tech</p></a>
+                        <h5 className="font-main">Address</h5>
+                        <p className="font-main">4838 E 64th St, 46220</p>
+                        <h5 className="font-main">Phone</h5>
+                        <p className="font-main">(317)853-0416</p>
+                        <h5 className="font-main">Email</h5>
+                        <a href="mailto:mason.schafer1@gmail.com" style={{textDecorationColor: "white", color: "white"}} className="font-main"><p>mason.schafer1@gmail.com</p></a>
+                        <h5 className="font-main">Website</h5>
+                        <a href="/" style={{textDecorationColor: "white", color: "white"}} className="font-main"><p>masonschafer.tech</p></a>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
-                        <a href="https://cdn-22.anonfile.com/V4O389waoa/bbf7766e-1588802234/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontFamily: 'economica', fontSize: '20px', backgroundColor: 'white', color:  'black'}}>Download Resume</Button></a>
+                        <a href="https://cdn-22.anonfile.com/V4O389waoa/bbf7766e-1588802234/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontSize: '20px', backgroundColor: 'white', color:  'black'}} className="font-main">Download Resume</Button></a>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
-                        <h2 style={{color: "#fff"}}>Education</h2>
+                        <h2 style={{color: "#fff"}} className="font-main">Education</h2>
                         <Education 
                             startYear={'Febuary, 2020'}
                             endYear={ 'August, 2020'}
@@ -54,7 +54,7 @@ class Resume extends Component {
                         />
                         <hr style={{borderTop: '3px solid #fff'}}/>
 
-                        <h2 style={{color: "#fff"}}>Experience</h2>
+                        <h2 style={{color: "#fff"}} className="font-main">Experience</h2>
                         <Experience 
                             startYear={2015}
                             endYear={2016}
@@ -68,22 +68,26 @@ class Resume extends Component {
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
                         />
                         <hr style={{borderTop: '3px solid #efff'}}/>
-                        <h2 style={{color: "#fff"}}>Skills</h2>
+                        <h2 style={{color: "#fff"}} className="font-main">Skills</h2>
                         <Skills 
                             skill="Javascript"
                             progress={75}
+                            className="font-main"
                         />
                         <Skills 
-                        skill="React"
-                        progress={55}
+                            skill="React"
+                            progress={55}
+                            className="font-main"
                         />
                         <Skills 
-                        skill="Python"
-                        progress={80}
+                            skill="Python"
+                            progress={80}
+                            className="font-main"
                         />
                         <Skills 
-                        skill="MongoDB"
-                        progress={85}
+                            skill="MongoDB"
+                            progress={85}
+                            className="font-main"
                         />
 
                     </Cell>
