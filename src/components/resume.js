@@ -3,6 +3,7 @@ import {Grid, Cell} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import ResumeProject from './resumeProject';
 import { Button } from 'reactstrap';
 import TypeWriter from 'react-typewriter';
 
@@ -24,7 +25,7 @@ class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}} className="font-main">Mason Schafer</h2>
                         <TypeWriter typing={.5}><h4 style={{color: 'lightgrey'}} className="font-main">Developer</h4></TypeWriter>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
-                        <p className="font-main">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className="font-main">My name is Mason Schafer and I love being a developer. I have been learning different languages since I was 13 years old. I always remember when I would be on break from school I would go to my Mom’s work and would very often just build random web games with Javascript and fun little websites.</p>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
                         <h5 className="font-main">Address</h5>
                         <p className="font-main">4838 E 64th St, 46220</p>
@@ -43,14 +44,14 @@ class Resume extends Component {
                             startYear={'Febuary, 2020'}
                             endYear={ 'August, 2020'}
                             schoolName={'Butler University Data Analysis Bootcamp'}
-                            schoolDescription={'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'}
+                            schoolDescription={'Bootcamp certificate for data analytics and visualization'}
                         />
 
                         <Education 
                             startYear={2015}
                             endYear={2019}
                             schoolName={'North Central High School'}
-                            schoolDescription={'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'}
+                            schoolDescription={'Secondary Education'}
                         />
                         <hr style={{borderTop: '3px solid #fff'}}/>
 
@@ -58,15 +59,46 @@ class Resume extends Component {
                         <Experience 
                             startYear={2015}
                             endYear={2016}
-                            jobName="Habig's Garden Shop"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            jobName="Best Buy"
+                            jobDescription="Sales Associate in the computer department. Helping customers find the products that best fit their needs."
                         />
                         <Experience 
                             startYear={2017}
                             endYear={2019}
-                            jobName="Restraunt"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                            jobName="iMechanic iPhone &amp; Computer Repair"
+                            jobDescription="Diagnose and repair iPhones and Computer for customer"
                         />
+                        <hr style={{borderTop: '3px solid #efff'}}/>
+
+                        <h2 style={{color: "#fff"}} className="font-main">Personal Projects</h2>
+
+                        <ResumeProject 
+                            projectName="SQL Data Engineering, Modeling, and Analysis"
+                            projectDescription="Clean a set of six CSV files and create an ERD and
+                            database schema to preform data analysis on the database."
+
+                        />
+                        <ResumeProject 
+                            projectName="Analysis on prior economic downturns in the economy vs. the economic situation with COVID19"
+                            projectDescription="Collect data from the internet and use of APIs on past economic downfalls (GDP Data, Average Salary,
+                                Dow Jones Data) to make a prediction on how long it will take to recover from COVID-19"
+
+                        />
+                        <ResumeProject 
+                            projectName="Facial Detection with open-cv and machine learning"
+                            projectDescription="Used Python to create a supervised learning
+                            model that could with roughly 85% accuracy, detect popular faces including Elon Musk and Jeff Bezos."
+
+                        />
+                        <ResumeProject 
+                            projectName="PassHold - A lightweight password manager written completely in Python"
+                            projectDescription="PassHold is a open-source
+                            lightweight password manager that is written complete in Python and uses an active database to store
+                            passwords, currently only written for use in terminal but planning on impementing flask and react to create
+                            a front end for the manager."
+
+                        />
+
                         <hr style={{borderTop: '3px solid #efff'}}/>
                         <h2 style={{color: "#fff"}} className="font-main">Skills</h2>
                         <Skills 
