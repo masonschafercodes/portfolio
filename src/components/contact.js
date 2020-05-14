@@ -1,33 +1,59 @@
 import React, { Component } from 'react';
-import  {Button} from 'reactstrap';
-import styled, {keyframes} from 'styled-components';
-import {bounce} from 'react-animations';
-import bounceIn from 'react-animations/lib/bounce-in'
-
-const bounceAnimation = keyframes`${bounce}`;
-
-const BouncyDiv = styled.div`animation: 1s ${bounceAnimation};`
-
-const bounceInAnimation = keyframes`${bounceIn}`;
-const BounceInDiv = styled.div`animation: 1.5s ${bounceInAnimation};`
+import  {Button, Form, FormGroup, Input, Label  } from 'reactstrap';
 
 
 
 class Contact extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            email: '',
+            message: ''
+        };
+    }
+
+    handleChange(e){
+        this.setState({[e.target.name]: e.target.value});
+        this.setState({[e.target.name]: e.target.value});
+    }
+
+    async onSumbitForm(e){
+        try {
+            e.preventDefault();
+            var email = { email };
+            var message = { message };
+
+            const response = await fetch("http://192.168.86.39:5000/api/email", {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({'from': this.state.email, 'text': this.state.message})
+            }).then(this.onDismiss);
+
+
+        } catch (err) {
+            console.error(err.message);
+        }
+    }
+
     render(){
         return(
 
-            <div className="contact-body font-main" style={{textAlign: 'center'}}>
-
-                <BounceInDiv><h1 className="font-main" style={{textAlign: 'center'}}>Let's Talk.</h1></BounceInDiv>
-                <h5 className="font-main" style={{textAlign: 'center'}}>If you have any questions about my projects or any other random questions, why not just shoot me an email.</h5>
-                <hr />
-                <BouncyDiv><a className="font-main" href="mailto:mason.schafer1@gmail.com" ><Button color="primary" style={{fontWeight: '700'}}>Contact Me!</Button></a></BouncyDiv>
-                <div className="contact-info-section font-main">
-                    <h4 className="font-main" style={{textAlign: 'center'}}><strong>Email:</strong> mason.schafer1@gmail.com</h4>
-                    <h4 className="contact-info-middle font-main"><strong>Phone:</strong> (317)853-0416</h4>
-                    <h4 className="font-main"><strong>GitHub:</strong> <a href="https://www.github.com/masonschafercodes">/masonschafercodes</a></h4>
-                </div>
+            <div className="contact-body font-main" style={{textAlign: 'center', fontSize: '18px'}}>
+                <h1>Send me an Email if you want to Talk!</h1>
+               <Form style={{marginTop: '15px'}} onSubmit={this.onSumbitForm.bind(this)}>
+                   <FormGroup>
+                       <Label>Email: </Label>
+                       <Input type="email" placeholder="Email" name="email" value={this.state.email} onChange={this.handleChange.bind(this)} />
+                   </FormGroup>
+                   <FormGroup>
+                       <Label>Message: </Label>
+                       <Input type="textarea" placeholder="Message to Me" name="message" value={this.state.message} onChange={this.handleChange.bind(this)} />
+                   </FormGroup>
+                   <Button color="primary" style={{marginTop: '15px'}} type="submit">Send</Button>
+               </Form>
                 
             </div>
         );
