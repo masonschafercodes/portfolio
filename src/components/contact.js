@@ -30,7 +30,7 @@ class Contact extends Component {
                     )
             }
 
-            await fetch("http://masonschaferapi.xyz:5000/api/email", {
+            await fetch("https://masonschaferapi.xyz/api/email", {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
