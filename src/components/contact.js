@@ -30,7 +30,7 @@ class Contact extends Component {
                     )
             }
 
-            const response = await fetch("http://192.168.86.39:5000/api/email", {
+            await fetch("http://192.168.86.39:5000/api/email", {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',

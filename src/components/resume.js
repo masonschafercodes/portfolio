@@ -36,7 +36,7 @@ class Resume extends Component {
                         <h5 className="font-main">Website</h5>
                         <a href="/" style={{textDecorationColor: "white", color: "white"}} className="font-main"><p>masonschafer.tech</p></a>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
-                        <a href="https://cdn-22.anonfile.com/V4O389waoa/bbf7766e-1588802234/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontSize: '20px', backgroundColor: 'white', color:  'black'}} className="font-main">Download Resume</Button></a>
+                        <a href="https://cdn-02.anonfile.com/V4O389waoa/77d866e6-1589465730/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontSize: '20px', backgroundColor: 'white', color:  'black'}} className="font-main">Download Resume</Button></a>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
                         <h2 style={{color: "#fff"}} className="font-main">Education</h2>

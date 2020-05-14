@@ -27,8 +27,8 @@ class AboutMe extends Component {
                             style={{height: '250px', textAlign: 'center', paddingLeft: '15px'}}
                             className="about-me-left"
                             />
-                            <a href="https://www.github.com/masonschafercodes"><i className="fa fa-github-square fa-3x" style={{marginTop: "10px", padding: "10px", color: "#0099ff"}}></i></a>
-                            <a href="https://www.linkedin.com/in/masonschafer"><i className="fa fa-linkedin-square fa-3x" style={{color: "#0099ff"}}></i></a>
+                            <a href="https://www.github.com/masonschafercodes" rel="noopener noreferrer" target="_blank"><i className="fa fa-github-square fa-3x" style={{marginTop: "10px", padding: "10px", color: "#0099ff"}}></i></a>
+                            <a href="https://www.linkedin.com/in/masonschafer" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin-square fa-3x" style={{color: "#0099ff"}}></i></a>
                         </div>
                     </Cell>
                     <Cell col={8} className="about-me-right font-main">
