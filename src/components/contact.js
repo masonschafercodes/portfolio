@@ -23,6 +23,13 @@ class Contact extends Component {
             var email = { email };
             var message = { message };
 
+            if (this.state.email === '' && this.state.message === ''){
+                return (
+                    document.getElementById("completed").innerHTML = "Not Sent",
+                    document.getElementById("completed").style.color = 'red'
+                    )
+            }
+
             const response = await fetch("http://192.168.86.39:5000/api/email", {
                 method: 'POST',
                 headers: {
@@ -30,7 +37,10 @@ class Contact extends Component {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({'from': this.state.email, 'text': this.state.message})
-            }).then(this.onDismiss);
+            }).then(
+                document.getElementById("completed").innerHTML = "Completed",
+                document.getElementById("completed").style.color = 'green'
+            );
 
 
         } catch (err) {
@@ -54,6 +64,7 @@ class Contact extends Component {
                    </FormGroup>
                    <Button color="primary" style={{marginTop: '15px'}} type="submit">Send</Button>
                </Form>
+                <h3 className="font-main" style={{marginTop: '30px'}} id="completed"></h3>
                 
             </div>
         );
