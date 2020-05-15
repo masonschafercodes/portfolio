@@ -4,7 +4,6 @@ import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
 import ResumeProject from './resumeProject';
-import { Button } from 'reactstrap';
 import TypeWriter from 'react-typewriter';
 
 class Resume extends Component {
@@ -36,7 +35,6 @@ class Resume extends Component {
                         <h5 className="font-main">Website</h5>
                         <a href="/" style={{textDecorationColor: "white", color: "white"}} className="font-main"><p>masonschafer.tech</p></a>
                         <hr style={{borderTop: '3px solid #fff', width: '50%'}}/>
-                        <a href="https://cdn-02.anonfile.com/V4O389waoa/77d866e6-1589465730/MasonSchaferResume.pdf" ><Button color="primary"  style={{marginTop:  '15px', fontSize: '20px', backgroundColor: 'white', color:  'black'}} className="font-main">Download Resume</Button></a>
                     </Cell>
                     <Cell col={8} className="resume-right-col">
                         <h2 style={{color: "#fff"}} className="font-main">Education</h2>
@@ -52,19 +50,21 @@ class Resume extends Component {
                             endYear={2019}
                             schoolName={'North Central High School'}
                             schoolDescription={'Secondary Education'}
+                            subActivities={ 'Business Professionals of America (BPA) - BPA is a Career and Technical Student Organization. I used this to progress my technical abilities and get experience with new high level technologies.' }
+                            anothersubActivities={ 'Played 3 years of High School baseball, where I I learned how to communicate effectively with a large team and increase my athletic capabilities.' }
                         />
                         <hr style={{borderTop: '3px solid #fff'}}/>
 
                         <h2 style={{color: "#fff"}} className="font-main">Experience</h2>
                         <Experience 
-                            startYear={2015}
-                            endYear={2016}
+                            startYear='Beginning of 2020'
+                            endYear='Current'
                             jobName="Best Buy"
                             jobDescription="Sales Associate in the computer department. Helping customers find the products that best fit their needs."
                         />
                         <Experience 
-                            startYear={2017}
-                            endYear={2019}
+                            startYear='Mid 2019'
+                            endYear='Early 2020'
                             jobName="iMechanic iPhone &amp; Computer Repair"
                             jobDescription="Diagnose and repair iPhones and Computer for customer"
                         />
