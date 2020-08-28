@@ -1,38 +1,76 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+#portfolio-header {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 61px;
   text-align: center;
+  letter-spacing: 0.12em;
+
+  color: #6C63FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#portfolio-guy {
+  width: 1230px;
+  height: 720px;
+  display: block;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.spacing-div{
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact-display {
+display: flex;
+flex-direction: column;
+padding: 0px;
+transform: translate(15%, 185%);
 }
 
-.App-link {
-  color: #61dafb;
+.span-class{
+  font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0.12em;
+
+color: #6C63FF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-class{
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.12em;
+
+  color: black;
+  text-decoration: none;
+}
+
+.link-class:hover {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.12em;
+
+  color: black;
+  text-decoration: solid;
+  text-decoration-color: #6C63FF;
+}
+
+#contact-guy{
+  width: 759px;
+  height: 565px;
+  display: block;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  float: right;
+
 }
