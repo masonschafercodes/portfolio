@@ -1,13 +1,100 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: #2D3436;
+}
+.nav-container{
+  color: #B2BEC3;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-container a{
+  text-decoration: none;
+  color: #B2BEC3;
+  padding: 0 7px;
+}
+
+.nav-container a:hover {
+  color: #00B894;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-container img {
+  width: 200px;
+  height: 200px;
+}
+
+.main-container h1 {
+  padding-top: 20px;
+}
+
+.about-me{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.whoami {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.whoami p{
+  justify-content: space-around;
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+}
+
+.socials-container a {
+  text-decoration: none;
+}
+
+.socials-container p:hover {
+  color: #00B894;
+}
+
+.cpyright-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.socials-container p {
+  padding: 0 20px;
+}
+
+
+.hash-color {
+  color: #00B894;
+}
+
+.color1 {
+  color: #B2BEC3;
+}
+
+.font-main {
+  font-family: 'Red Hat Display';
 }
