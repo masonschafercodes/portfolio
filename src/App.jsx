@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="nav-container">
         <a href="/" className="font-main"><p>Projects</p><br/></a>
-        <a href="/" className="font-main"><p>Blog</p></a>
+        <a href="/blog" className="font-main"><p>Blog</p></a>
       </div>
       <div className="main-container">
         <img src="https://i.ibb.co/7kPQGVT/icon.png" alt="Mason Schafer Portfolio" />
