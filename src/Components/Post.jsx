@@ -10,7 +10,7 @@ const Post = ({ article }) => {
 
     return (
         <div className="post pt-30">
-            <h2 className="font-main color1">{ name }</h2>
+            <h2 className="font-main color1 post-name">{ name }</h2>
             { featuredImage && <img className="featuredImage" src={ featuredImage.fields.file.url } alt={name} title={name} /> }
             <section className="desc" dangerouslySetInnerHTML={{ __html: description }} />
             <hr className="article-sep" />
