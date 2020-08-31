@@ -4,12 +4,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Blog from './pages/Blog'
+import { Projects } from './pages/Projects';
 
 const routing = (
   <Router>
     <div>
       <Route exact path="/" component={App} />
-      <Route exact path="/blog" component={Blog} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/projects" component={Projects} />
     </div>
   </Router>
 )

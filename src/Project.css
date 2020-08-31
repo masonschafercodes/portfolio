@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-family: 'Red Hat Display';
+    color: #B2BEC3;
+  }
+
+  .projects-header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Red Hat Display';
+      font-size: small;
+  }
+
+  .projects-header hr{
+      width: 50%;
+      margin: 10px;
+  }

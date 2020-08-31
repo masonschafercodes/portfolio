@@ -7,7 +7,7 @@ function App() {
     <Fade>
     <div className="App">
       <div className="nav-container">
-        <a href="/" className="font-main"><p>Projects</p><br/></a>
+        <a href="/projects" className="font-main"><p>Projects</p><br/></a>
         <a href="/blog" className="font-main"><p>Blog</p></a>
       </div>
       <div className="main-container">

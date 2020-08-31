@@ -6,7 +6,7 @@ const Blog = () => {
     return (
         <div>
             <div className="nav-container">
-                <a href="/" className="font-main"><p>Projects</p><br/></a>
+                <a href="/projects" className="font-main"><p>Projects</p><br/></a>
                 <a href="/" className="font-main"><p>Home</p></a>
             </div>
             <BlogPost />
