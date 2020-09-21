@@ -29,6 +29,20 @@ export const Projects = () => {
             img="https://i.ibb.co/2SwVMd6/port1.png"
             tags={["web dev", 'React']}
           />
+          <Project
+            link="https://masonschafercodes.github.io/mark-it-down"
+            name="Mark-It-Down"
+            desc="Mark-down viewer in the browser."
+            img="https://i.ibb.co/YL6pjVK/md.png"
+            tags={["web dev", 'Vue']}
+          />
+          <Project
+            link="https://masonschafercodes.github.io/forests-onb/"
+            name="forests."
+            desc="Nicely designed website to learn about the different types of forests."
+            img="https://i.ibb.co/HrztfB1/forest.png"
+            tags={["web dev", 'React', 'Design']}
+          />
         </div>
       </div>
     </Fade>
