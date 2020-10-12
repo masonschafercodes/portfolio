@@ -13,6 +13,10 @@
   padding: 25px;
 }
 
+.article-sep {
+ width: 70%;
+}
+
 .nav-container a{
   text-decoration: none;
   color: #B2BEC3;
