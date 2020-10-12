@@ -4,7 +4,6 @@ import marked from 'marked'
 import { Fade } from "react-awesome-reveal";
 
 const Post = ({ article }) => {
-    console.log(article)
     const name = article.fields.postname
     const description = marked(article.fields.description)
     const featuredImage = article.fields.featuredImage
