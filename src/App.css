@@ -77,6 +77,10 @@
 
 }
 
+.article-sep {
+  width: 70%;
+}
+
 footer {
   width: 100%;
   position: fixed;
