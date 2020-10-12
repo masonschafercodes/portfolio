@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
 import './App.css';
+import ThingsILove from './Components/ThingsILove';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <p className="font-main color1"><span className="hash-color">#</span> Design-Oriented</p>
           </div>
         </div>
+        <ThingsILove />
       </div>
       <footer>
         <div className="footer-container">
