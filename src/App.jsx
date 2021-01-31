@@ -102,7 +102,7 @@ function App() {
               </a>
             </div>
             <div className="cpyright-container">
-              <p className="font-main color1">2020 Mason Schafer</p>
+              <p className="font-main color1">2021 Mason Schafer</p>
             </div>
           </div>
         </footer>
