@@ -2,12 +2,17 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./App.css";
 import ThingsILove from "./Components/ThingsILove";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <Fade>
       <div className="App">
         <div className="nav-container">
+        <a href="#contact" className="font-main">
+            <p>Contact Me</p>
+            <br />
+          </a>
           <a href="/projects" className="font-main">
             <p>Projects</p>
             <br />
@@ -77,6 +82,8 @@ function App() {
               "https://i.ibb.co/nsZGK1t/pexels-north-1407322.jpg"
             ]}
           />
+          <h1 className="font-main color1 mb-1" id="contact">Contact Me.</h1>
+          <Contact />
         </div>
         <footer>
           <div className="footer-container">

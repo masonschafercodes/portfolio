@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   background: #2d3436;
+  scroll-behavior: smooth;
 }
 .nav-container {
   color: #b2bec3;
@@ -146,13 +147,53 @@ footer {
   margin-bottom: 50px;
 }
 
+.contact-form {
+  display: inline-block;
+}
+
+.contact-form input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px;
+  display: inline-block;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Red Hat Display";
+  background-color: #191b1b;
+  color: #b2bec3;
+}
+
+.contact-form button[type=submit] {
+  width: 30%;
+  padding: 14px 20px;
+  font-family: "Red Hat Display";
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #b2bec3;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.contact-form button[type=submit]:hover {
+  background-color:#00b894;
+  cursor: pointer;
+}
+
 .things-I-love img {
   width: 480px;
   height: 360px;
   margin: 10px;
   border-radius: 5px;
   box-shadow: 0px 8px 10px #2d3436;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .things-I-love img:hover {
