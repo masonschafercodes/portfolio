@@ -241,3 +241,9 @@ footer {
     height: 240px;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .contact-form input[type=text], input[type=email] {
+    width: 90%;
+  }
+}
