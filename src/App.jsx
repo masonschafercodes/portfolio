@@ -60,9 +60,6 @@ function App() {
             <h3 className="font-main color1">About me.</h3>
             <div className="whoami">
               <p className="font-main color1">
-                <span className="hash-color">#</span> 19 years old
-              </p>
-              <p className="font-main color1">
                 <span className="hash-color">#</span> Creative and Motivated
               </p>
               <p className="font-main color1">
@@ -76,6 +73,8 @@ function App() {
               "https://i.ibb.co/1673C48/pexels-kevin-ku-577585.jpg",
               "https://i.ibb.co/PjBPSCN/pexels-tim-gouw-139762.jpg",
               "https://i.ibb.co/VtVck8w/pexels-evie-shaffer-2923672.jpg",
+              "https://i.ibb.co/HzgcpND/pexels-startup-stock-photos-7103.jpg",
+              "https://i.ibb.co/nsZGK1t/pexels-north-1407322.jpg"
             ]}
           />
         </div>
