@@ -28,7 +28,9 @@ class BlogPost extends Component {
             </header>
             <main>
             <div className="wrapper">
-                <Posts posts={this.state.articles} />
+                {
+                    this.state.articles.length === 0 ? <h1 className="font-main">Articles Coming Soon.</h1> : <Posts posts={this.state.articles} />
+                }
             </div>
             </main>
         </div>
