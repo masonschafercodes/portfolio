@@ -54,12 +54,12 @@ export const Projects = () => {
           <hr />
         </div>
         <div className="projects">
-          <Project
-            link="https://github.com/masonschafercodes/portfolio"
-            name="Portfolio Website"
-            desc="This is my portfolio website that I have build completely in ReactJS."
-            img="https://i.ibb.co/2SwVMd6/port1.png"
-            tags={["web dev", 'React']}
+          <Project 
+            link="https://masonschafercodes.github.io/conways_game_of_life/"
+            name="Conway's Game of Life"
+            desc="Game of Life Simulation with React Hooks and Typescript"
+            img="https://i.ibb.co/qnV3gR5/1280px-React-icon-svg.png"
+            tags={["React", "Typescript", "Simulation"]}
           />
           <Project
             link="https://masonschafercodes.github.io/mark-it-down"
