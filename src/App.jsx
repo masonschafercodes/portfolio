@@ -1,5 +1,8 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import { SiJavascript, SiReact, SiTypescript, SiRedux, SiCsswizardry, SiMongodb } from 'react-icons/si';
+import { BiCoffeeTogo } from 'react-icons/bi';
+import { IconContext } from "react-icons";
 import "./App.css";
 import ThingsILove from "./Components/ThingsILove";
 import Contact from "./Components/Contact";
@@ -59,17 +62,19 @@ function App() {
             alt="Mason Schafer Portfolio"
           />
           <h1 className="font-main color1">
-            I am <span className="hash-color">Mason Schafer</span>
+            I am <span className="hash-color">Mason Schafer</span>.
           </h1>
           <div className="about-me">
-            <h3 className="font-main color1">About me.</h3>
+            <h3 className="font-main color1"><span className="hash-color">Technologies</span> I use</h3>
             <div className="whoami">
-              <p className="font-main color1">
-                <span className="hash-color">#</span> Creative and Motivated
-              </p>
-              <p className="font-main color1">
-                <span className="hash-color">#</span> Design-Oriented
-              </p>
+              <IconContext.Provider value={{ className: 'react-icons' }}>
+                <SiJavascript />
+                <SiReact />
+                <SiTypescript />
+                <SiRedux />
+                <SiCsswizardry />
+                <SiMongodb />
+              </IconContext.Provider>
             </div>
           </div>
           <ThingsILove
@@ -82,7 +87,9 @@ function App() {
               "https://i.ibb.co/nsZGK1t/pexels-north-1407322.jpg"
             ]}
           />
-          <h1 className="font-main color1 mb-1" id="contact">Contact Me.</h1>
+          <h1 className="font-main color1 mb-1" id="contact">Grab a Coffee? <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}> 
+            <BiCoffeeTogo />
+          </IconContext.Provider></h1>
           <Contact />
         </div>
         <footer>

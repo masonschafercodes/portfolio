@@ -14,6 +14,18 @@
   padding: 25px;
 }
 
+.react-icons {
+  width: 100px;
+  height: 100px;
+  padding: 0px 15px 0px 15px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.react-icons:hover {
+  color: #00b894;
+}
+
 .article-sep {
   width: 70%;
 }
@@ -46,15 +58,15 @@
 }
 
 .about-me {
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .whoami {
-  padding: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .wrapper {
