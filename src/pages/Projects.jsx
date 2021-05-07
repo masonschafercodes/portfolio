@@ -13,7 +13,7 @@ export const Projects = () => {
             <p>Home</p>
             <br />
           </a>
-          <a href="/blog" className="font-main">
+          <a href="https://masonschafercodes-blog.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-main">
             <p>Blog</p>
           </a>
           <a href="https://github.com/masonschafercodes" target="_blank" rel="noopener noreferrer">
@@ -54,7 +54,7 @@ export const Projects = () => {
           <hr />
         </div>
         <div className="projects">
-          <Project 
+          <Project
             link="https://masonschafercodes.github.io/conways_game_of_life/"
             name="Conway's Game of Life"
             desc="Game of Life Simulation with React Hooks and Typescript"

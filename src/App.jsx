@@ -12,7 +12,7 @@ function App() {
     <Fade>
       <div className="App">
         <div className="nav-container">
-        <a href="#contact" className="font-main">
+          <a href="#contact" className="font-main">
             <p>Contact Me</p>
             <br />
           </a>
@@ -20,7 +20,7 @@ function App() {
             <p>Projects</p>
             <br />
           </a>
-          <a href="/blog" className="font-main">
+          <a href="https://masonschafercodes-blog.vercel.app/" target="_blank" rel="noopener noreferrer" className="font-main">
             <p>Blog</p>
           </a>
           <a href="https://github.com/masonschafercodes" target="_blank" rel="noopener noreferrer">
@@ -87,7 +87,7 @@ function App() {
               "https://i.ibb.co/nsZGK1t/pexels-north-1407322.jpg"
             ]}
           />
-          <h1 className="font-main color1 mb-1" id="contact">Grab a Coffee? <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}> 
+          <h1 className="font-main color1 mb-1" id="contact">Grab a Coffee? <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
             <BiCoffeeTogo />
           </IconContext.Provider></h1>
           <Contact />
